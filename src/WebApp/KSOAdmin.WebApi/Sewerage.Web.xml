@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KSOAdmin</name>
+    </assembly>
+    <members>
+        
+        <member name="M:KSOAdmin.WebApi.Controllers.HomeController.Get()">
+            <summary>
+            测试
+            </summary>
+        </member>
+        
+    </members>
+</doc>

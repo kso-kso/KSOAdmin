@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>KSOAdmin.Authorization</name>
+  </assembly>
+  <members>
+    <member name="M:KSOAdmin.Authorization.Controllers.LoginController.VerificationCodeAsync(System.String)">
+      <summary>
+        生成验证码
+      </summary>
+      <param name="type">添加的参数Login或者Register</param>
+      <returns></returns>
+    </member>
+
+    <member name="M:KSOAdmin.Authorization.Controllers.LoginController.LoginVerificationAsync(KSOAdmin.Models.ViewModel.View_Sys_User)">
+      <summary>
+        登录
+      </summary>
+      <param name="_Sys_User">用户登录信息</param>
+      <returns></returns>
+    </member>
+
+    <member name="M:KSOAdmin.Authorization.Controllers.LoginController.RefreshTokenAsync(KSOAdmin.Models.ViewModel.View_Sys_User)">
+      <summary>
+        刷新Token
+      </summary>
+      <param name="_Sys_User">用户登录信息</param>
+      <returns></returns>
+    </member>
+    
+
+  </members>
+</doc>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\KSOAdmin.Models\KSOAdmin.Models.csproj" />
+    <ProjectReference Include="..\KSOAdmin.IRepository\KSOAdmin.IRepository.csproj" />
+    <ProjectReference Include="..\KSOAdmin.IServices\KSOAdmin.IServices.csproj" />
+  </ItemGroup>
+
+</Project>
